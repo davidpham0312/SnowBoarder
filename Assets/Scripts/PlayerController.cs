@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -10,7 +11,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float boostSpeed = 30f;
     [SerializeField] float baseSpeed = 20f;
     bool canMove = true;
-
     SurfaceEffector2D surfaceEffector2D;
     // Start is called before the first frame update
     void Start()
